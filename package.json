@@ -1,0 +1,28 @@
+{
+  "name": "react-router-isomorphic-pattern",
+  "scripts": {
+    "start": "babel-node server.jsx",
+    "test": "mocha --watch --compilers jsx:babel/register \"test/*.jsx\""
+  },
+  "dependencies": {
+    "babel": "^5.8.29",
+    "babelify": "^6.4.0",
+    "browserify-middleware": "^7.0.0",
+    "express": "^4.13.3",
+    "react": "^0.14.0",
+    "react-addons-linked-state-mixin": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-mixin": "^3.0.0",
+    "react-router": "^1.0.0-rc3",
+    "victorica": "0.0.0-beta.3"
+  },
+  "devDependencies": {
+    "power-assert": "^1.1.0",
+    "mocha": "^2.3.3"
+  },
+  "babel": {
+    "optional": [
+      "es7.classProperties"
+    ]
+  }
+}
