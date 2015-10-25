@@ -6,6 +6,9 @@ React zatu todo MVC
 # Installation
 
 ```bash
+git clone https://github.com/59naga/react-zatu-todomvc.git todomvc
+cd todomvc
+
 npm install
 npm start
 # Server running at http://localhost:59798
