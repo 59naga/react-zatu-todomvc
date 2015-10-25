@@ -27,4 +27,4 @@ npm test
 
 License
 ---
-[MIT][http://59naga.mit-license.org/]
+[MIT](http://59naga.mit-license.org/)
